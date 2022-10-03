@@ -1,0 +1,86 @@
+.container {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container-data {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.options {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.login {
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  width: 30rem;
+  border-radius: 8px;
+}
+
+.posts {
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+.post {
+  background-color: brown;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  width: 40rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.container-modal {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 2020;
+}
+
+.modal {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.modal-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 1rem;
+}
